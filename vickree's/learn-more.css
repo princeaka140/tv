@@ -1,0 +1,25 @@
+
+#container {
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+img {
+    width: 150px;
+    min-height: 150px;
+    box-shadow: 2px 1px 1.5px 0.1px rgba(128, 128, 128, 0.8);
+    border-radius: 10px;
+}
+#container > div {
+    align-items: center;
+}
+button {
+    background-color: rgba(79, 74, 74, 0.1);
+    border-radius: 10px;
+    border: 2px solid grey;
+}
+a {text-decoration: none;}
+button:active {
+    background-color: rgb(122, 225, 122);
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="product.css">
+    </head>
+<body>
+    <div class="product">
+     <img src="../smart-wifi.jpg">
+     <div class="div">
+       <h1>SMART WI-FI</h1>
+       <p>
+        Fast, reliable, and intelligent Wi-Fi solution designed to keep
+        your home or office connected at all times.
+       </p>
+       <p><strong>PRODUCT TYPE: Physical</strong></p>
+       <p><strong>Price:</strong> $20</p>
+       <form id="form" class="form">
+       <input type="email" placeholder="Enter Email-Address" required>
+       <input type="number" placeholder="Input Card-Number" required>
+       <div id="flex">
+       <input type="date" required>
+       <input type="text" inputmode="numeric" pattern="\d{4}" maxlength="4" placeholder="CCV" required>
+       </div>
+       <button id="order"  type="submit" style="position: relative; left: 110px;">ORDER</button>
+       </form>
+     </div>
+    </div>
+    <div id="check" class="check">
+       <div class="tick">
+         <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+           <path d="M20 6L9 17L4 12" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+         </svg>
+        </div>
+        <p style="font-size: 20px; color: #2ecc71; transition: 10s;">Order Confirmed!</p>
+        <p>&ensp;Thank you! Your order of $20 has &ensp;&ensp;&ensp;&ensp;&ensp; been successfully placed</p>
+    </div>
+</body>
+<script src="product.js"></script>
+</html>
